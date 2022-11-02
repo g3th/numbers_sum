@@ -27,7 +27,6 @@ int main () {
 
 vector<int> digitSum(int num){
 
-	int x =0;
 	string num_to_string = to_string(num);
 	int str_size = num_to_string.size();
 	char store_string[str_size];
