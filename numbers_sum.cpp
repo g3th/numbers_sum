@@ -4,7 +4,6 @@ using namespace std;
 
 vector<int> digitSum(int);
 
-
 int main () {
 
 	int num = 0;
@@ -24,7 +23,6 @@ int main () {
 	cout << " = " << sum << "\n\n";
 }	
 
-
 vector<int> digitSum(int num){
 
 	string num_to_string = to_string(num);
@@ -39,4 +37,3 @@ vector<int> digitSum(int num){
 
 	return int_list;
 }
-
