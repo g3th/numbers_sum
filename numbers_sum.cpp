@@ -25,15 +25,11 @@ int main () {
 
 vector<int> digitSum(int num){
 
-	string num_to_string = to_string(num);
-	int str_size = num_to_string.size();
-	char store_string[str_size];
-	vector<int> int_list;	
-	
-	for (int x = 0; x < num_to_string.size(); ++x){
-		store_string[x] = num_to_string[x] - '0';
+	int x =0;
+	string num_to_string = to_string(num);	
+	vector<int> int_list;
+	for (int x = 0; x < num_to_string.size(); ++x){		
 		int_list.push_back(num_to_string[x] - '0');
 	}
-
 	return int_list;
 }
