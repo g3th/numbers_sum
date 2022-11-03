@@ -25,7 +25,6 @@ int main () {
 
 vector<int> digitSum(int num){
 
-	int x =0;
 	string num_to_string = to_string(num);	
 	vector<int> int_list;
 	for (int x = 0; x < num_to_string.size(); ++x){		
