@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+// Method which splits strings
+
 vector<int> digitSum(int);
 
 int main () {
